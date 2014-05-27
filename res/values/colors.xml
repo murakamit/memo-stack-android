@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="error_list_time">#fdd</color>
+    <color name="memo_list_1_header">#ccc</color>
+    <color name="settings_text">#222</color>
+    <color name="settings_bg">#eee</color>
+    <color name="settings_text_strong_text">#cfc</color>
+    <color name="settings_text_strong_bg">#444</color>
+
+</resources>

@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.github.murakamit.memo_stack_android.MainActivity" >
+
+    <item
+        android:id="@+id/menu_show_errors"
+        android:title="@string/show_errors"
+        android:icon="@drawable/ic_action_warning"
+        android:visible="false"
+        android:showAsAction="always"
+        android:menuCategory="system"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:title="@string/settings"
+        android:menuCategory="system" />
+    <item
+        android:id="@+id/menu_quit"
+        android:title="@string/quit"
+        android:menuCategory="system" />
+
+</menu>

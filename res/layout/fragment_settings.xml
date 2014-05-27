@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/settings_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="2dp"
+            android:background="@color/settings_text_strong_bg"
+            android:text="@string/server"
+            android:textColor="@color/settings_text_strong_text" />
+
+        <EditText
+            android:id="@+id/settings_edit_server"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/api_url"
+            android:inputType="textUri"
+            android:text="@string/server_1"
+            android:textColor="@color/settings_text" >
+            <requestFocus />
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/settings_button_server_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set"
+                android:textColor="@color/settings_text" />
+
+            <TextView
+                android:id="@+id/settings_text_server_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/server_0"
+                android:textColor="@color/settings_text" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/settings_button_server_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/set"
+                android:textColor="@color/settings_text" />
+
+            <TextView
+                android:id="@+id/settings_text_server_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="@string/server_1"
+                android:textColor="@color/settings_text" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/settings_text_strong_bg"
+            android:text="@string/version"
+            android:textColor="@color/settings_text_strong_text" />
+
+        <RadioGroup
+            android:id="@+id/settings_rgroup_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/version" >
+
+            <RadioButton
+                android:id="@+id/settings_radio_1_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/v_1_0"
+                android:textColor="@color/settings_text" />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/settings_text_strong_bg"
+            android:text="@string/api_url"
+            android:textColor="@color/settings_text_strong_text" />
+
+        <TextView
+            android:id="@+id/settings_text_api_url"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:textColor="@color/settings_text" />
+
+    </LinearLayout>
+</ScrollView>
