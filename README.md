@@ -61,6 +61,11 @@ Fragment 同士で直接やりとりせずに、MainActivity が適切に仲介�
     * 受信データは、VolleyWorkerFragment から MainActivity に渡されて、MainActivity から MemoListFragment や MemoShowFragment などに渡されます。
     * 最終的に渡された先のフラグメントがデータを管理します。
 
+その他
+------
+
+* いまは MainActivity と各フラグメントのメッセージのやり取りが直接的過ぎるので、それらを `interface` として整理すべきだったと思いました。
+
 謝辞
 ----
 
